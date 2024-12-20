@@ -4,17 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .container {
-            margin: auto; 
-            width: 50%;
-            padding: 30px;
-            background: #e2e2e2;
-        }
-    </style>
+    <link rel="stylesheet" data-th-href="@{'/css/output.css'}"/>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
 </head>
 <body>
-   <div class="container">
+   <div class="container text-2xl">
     <h1 data-th-text="${name}">Welcome To Home Page</h1>
     <p>Project : <span data-th-text="${project}"></span> </p>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
@@ -23,5 +17,7 @@
         Optio vero perspiciatis aut libero quae!
     </p>
    </div>
+   
+   <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 </body>
-</html>
+</html>`
