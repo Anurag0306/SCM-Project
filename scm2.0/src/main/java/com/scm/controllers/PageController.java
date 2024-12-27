@@ -14,6 +14,16 @@ public class PageController {
         model.addAttribute("project","SCM");
         return "home";
     }
+    @RequestMapping("/about")
+    public String aboutpage() {
+        System.out.println("About page handler");
+        return "about";
+    }
+    @RequestMapping("/services")
+    public String Servicepage() {
+        System.out.println("Services page handler");
+        return "services";
+    }
 
 
 }
