@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Debug SCM2.0",
+            "request": "launch",
+            "mainClass": "com.example.scm2.MainApplication",
+            "projectName": "scm2.0"
+        }
+    ]
+}
